@@ -26,6 +26,8 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile group: 'org.springframework.kafka', name: 'spring-kafka'
+	compile group: 'com.google.code.gson', name: 'gson', version: '2.7'
 	compile 'org.springframework.boot:spring-boot-starter-data-jpa'
     compile 'mysql:mysql-connector-java'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
